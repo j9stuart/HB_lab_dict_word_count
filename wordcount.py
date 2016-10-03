@@ -38,7 +38,7 @@ def word_count(testfile):
             else:
                 word_dict[word] = 1
 
-    #testfile.close()
+    test_file.close()
     return word_dict
 
 word_count_dict = word_count("test.txt")
